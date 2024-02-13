@@ -10,7 +10,7 @@ function Home() {
             <div className="">
                 <Sidebar></Sidebar>
             </div>
-            <div>
+            <div className='overflow-y-auto w-[100vw] md:w-[calc(100vw-13rem)] h-screen '>
                 <Outlet></Outlet>
             </div>
         </div>
