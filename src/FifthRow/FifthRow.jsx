@@ -86,11 +86,11 @@ function FifthRow() {
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
-                            <th scope="col" class="px-4 py-3">Product name</th>
-                            <th scope="col" class="px-4 py-3">Category</th>
-                            <th scope="col" class="px-4 py-3">Brand</th>
-                            <th scope="col" class="px-4 py-3">Description</th>
-                            <th scope="col" class="px-4 py-3">Price</th>
+                            <th scope="col" class="px-4 py-3"><i style={{color:"#645B91"}} class="fas fa-bars mr-2"></i>Product name</th>
+                            <th scope="col" class="px-4 py-3"><i style={{color:"#BB6033"}} class="fas fa-border-style mr-2"></i>Category</th>
+                            <th scope="col" class="px-4 py-3"><i style={{color:"#718697"}} class="far fa-copyright mr-2"></i>Brand</th>
+                            <th scope="col" class="px-4 py-3"><i style={{color:"#829671"}} class="fas fa-file-prescription mr-2"></i>Description</th>
+                            <th scope="col" class="px-4 py-3"><i style={{color:"#7ABF92"}} class="fas fa-dollar-sign mr-2"></i>Price</th>
                             <th scope="col" class="px-4 py-3">
                                 <span class="sr-only">Actions</span>
                             </th>

@@ -73,7 +73,7 @@ function FourthRow() {
                    <div className="flex flex-row items-center">
                    <h1 className='text-2xl font-bold mr-3'>Revenue</h1>
                    <i style={{color:"#7AC08E",fontSize:"20px"}} class="fas fa-chart-bar mr-3"></i>
-                   <h1 style={{color:"#7AC08E"}} className='text-sm'>( +13% )</h1>
+                   <h1 style={{color:"#7AC08E"}} className='text-sm hidden md:block'>( +13% )</h1>
                    </div>
                    <div className="flex flex-row items-center">
                    <i style={{color:"#4F81BC",fontSize:"8px"}} class="fas fa-circle mr-3"></i>
@@ -88,7 +88,7 @@ function FourthRow() {
                    <div className="flex flex-row items-center">
                    <h1 className='text-2xl font-bold mr-3'>Visitors</h1>
                    <i style={{color:"#5748A6",fontSize:"20px"}} class="fas fa-user-check mr-3"></i>
-                   <h1 style={{color:"#5748A6"}} className='text-sm'>( +1.6% )</h1>
+                   <h1 style={{color:"#5748A6"}} className='text-sm hidden md:block'>( +1.6% )</h1>
                    </div>
                    <div className="flex flex-row items-center">
                    <i style={{color:"#4F81BC",fontSize:"8px"}} class="fas fa-circle mr-3"></i>
