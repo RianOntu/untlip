@@ -1,0 +1,109 @@
+@media only screen and (min-width: 375px){
+	.min{
+        width: 18rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .price{
+        right: 20px;
+        top:12px;
+    }
+    .customer-inner{
+        margin-top: 23px;
+    padding: 48px;
+    padding-top: 7.5rem;
+    }
+    .address{
+        margin-top: 23px;
+    }
+}
+@media only screen and (min-width: 768px){
+	.min{
+        width: 15rem;
+        
+    }
+    .mini{
+        left:-38px;
+
+    }
+    .customer{
+        margin-top:20px;
+        
+    }
+    .customer-inner{
+        padding: 20px;
+        padding-top: 7.5rem;
+        margin-top: 0px;
+    }
+    .address{
+        margin-top: 0px;
+        margin-left: 25px;
+    }
+ 
+}
+@media only screen and (min-width: 820px){
+	.min{
+        width: 18rem;
+        
+        
+    }
+    .mini{
+        left:5px
+    }
+    .customer-inner{
+        margin-top: 15px;
+    }
+    .customer-inner{
+padding:44px;
+padding-top:7.5rem;
+margin-right:9px
+    }
+   .ship{
+    max-width: 109px;
+   }
+    .address{
+        padding: 64px;
+        margin-top: 15px;
+    }
+}
+.padding{
+    padding:10px;
+    border-radius: 10px;
+}
+@media only screen and (min-width: 1024px){
+    .min{
+        width:15rem;
+    }
+    .mini{
+        left:0px;
+    }
+.customer{
+    
+    flex-direction: column;
+}
+.customer-inner{
+    padding: 3px;
+    padding-top: 7.5rem;
+    margin-top: -19px;
+    margin-right: -17px;
+    margin-left: 40px;
+}
+.address{
+    margin-left:41px;
+    margin-right:-13px
+}
+}
+
+@media only screen and (min-width: 1440px){
+.min{
+    width: 18rem;
+}
+.flame{
+    padding-right: 1rem;
+}
+}
+@media only screen and (min-width: 1536px){
+   .customer-inner{
+    padding:144px
+   }
+    }
