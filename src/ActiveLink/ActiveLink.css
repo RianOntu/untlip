@@ -1,0 +1,18 @@
+.active{
+    color:white;
+    background-color: #5844BD;
+    padding: 15px;
+    padding-top: 10px;
+    padding-left: 26px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.active1{
+    color:#5844BD;
+    text-decoration: underline;
+   
+    
+}
+.active1 .writing{
+    margin-bottom: 10px!important;
+}
