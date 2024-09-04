@@ -4,6 +4,7 @@ import BarChart from './BarChart';
 
 
 function FourthRow() {
+  console.log("rendering...");
   
     return (
         <div className="grid grid-cols-3 grid-rows-3 gap-7 mt-8">
