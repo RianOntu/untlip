@@ -46,7 +46,7 @@ const options = {
 
 const LineChart = () => {
     return (
-        <div style={{ width: '600px', height: '400px' }}>
+        <div style={{ width: '100%', height: 'auto' }}>
             <h2>Line Chart Example</h2>
             <Line data={data} options={options} />
         </div>
