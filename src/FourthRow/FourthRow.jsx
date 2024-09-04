@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import CanvasJSReact from '@canvasjs/react-charts';
 
-var CanvasJS = CanvasJSReact.CanvasJS;
+
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 const options = {
     animationEnabled: true,
