@@ -4,6 +4,7 @@ import './index.css'
 
 import {
   createBrowserRouter,
+  Navigate,
   RouterProvider,
 } from "react-router-dom";
 import Home from './Home/Home';
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home></Home>,
     children:[
+      {
+        index: true, 
+        element: <Navigate to="/statistics" replace={true} />,
+      },
       {
         path:'/statistics',
         element:<Statistics></Statistics>
